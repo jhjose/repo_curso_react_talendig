@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   let title_app = 'Curso Intensivo de React - Talendig';
+  let description = "Esta es un sitio dedicado al aprendizaje de los estudiantes de Talendig.";
 
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         >
           {title_app}
         </a>
+        <p>{description}</p>
       </header>
     </div>
   );
