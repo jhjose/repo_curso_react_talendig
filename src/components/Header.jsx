@@ -1,4 +1,5 @@
-import logo from "../logo.svg";
+import Clock from './Clock';
+import Nav from './Nav';
 
 function Header (props){
 
@@ -6,19 +7,16 @@ function Header (props){
 
     return (
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {props.title_app}
-            </a>
-            <p>{description}</p>
+            <Nav />
+            {/*<a*/}
+            {/*    className="App-link"*/}
+            {/*    href="https://talendig.com/"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*>*/}
+            {/*    {props.title_app + ' - '} <Clock/>*/}
+            {/*</a>*/}
+            {/*<p>{description}</p>*/}
         </header>
     )
 }
