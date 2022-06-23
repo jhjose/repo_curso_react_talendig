@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Clock from '../components/Clock';
 
 function HomePage(){
 
@@ -7,7 +8,10 @@ function HomePage(){
     }
 
     return (
-        <Header title_app={titles.title_1} />
+        <div>
+            <Header title_app={titles.title_1} />
+            <Clock />
+        </div>
     );
 }
 

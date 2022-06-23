@@ -21,9 +21,12 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Hello, world</h1>
-                <h2>It is {this.state.date.toLocaleTimeString()}</h2>
+            <div className="m-3 w-100 d-flex flex-row justify-content-center" style={{margin: 'auto'}}>
+                <div className="d-flex flex-column">
+                    <h1 className="text-center">Hello, world</h1>
+                    <h2 className="text-center">It is {this.state.date.toLocaleTimeString()}</h2>
+                </div>
+
             </div>
         );
     }
