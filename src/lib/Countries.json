@@ -1,0 +1,40 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "shot_name": "RD",
+      "name": "República Dominicana",
+      "timezone": "America/Santo_Domingo"
+    },
+    {
+      "id": 2,
+      "shot_name": "US",
+      "name": "Estados Unidos",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 3,
+      "shot_name": "CL",
+      "name": "Colombia",
+      "timezone": "America/MEDELLIN"
+    },
+    {
+      "id": 4,
+      "shot_name": "BR",
+      "name": "Brazil",
+      "timezone": "Sao Paulo"
+    },
+    {
+      "id": 5,
+      "shot_name": "IT",
+      "name": "Italia",
+      "timezone": "Capri"
+    },
+    {
+      "id": 6,
+      "shot_name": "UK",
+      "name": "Reino Unido",
+      "timezone": "Londres"
+    }
+  ]
+}
