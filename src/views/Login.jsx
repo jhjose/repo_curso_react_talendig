@@ -2,6 +2,7 @@ import Nav from '../components/Nav';
 import axios from 'axios';
 import {encode, decode} from 'string-encode-decode';
 import {isDisabled} from "@testing-library/user-event/dist/utils";
+import Button from '@mui/material/Button';
 import {useState} from "react";
 
 function Login(props){
@@ -47,7 +48,8 @@ function Login(props){
                         <input id="password_remember" className="m-2" name="password_remember" type="checkbox" />
                     </div>
 
-                    <button type="submit" className="mt-3 text-primary" disabled={!state}>Iniciar sesión</button>
+                    <Button type="submit" className="mt-3 text-primary" disabled={!state} variant="contained">Iniciar sesión</Button>
+                    {/*<button type="submit" className="mt-3 text-primary" disabled={!state}>Iniciar sesión</button>*/}
                 </form>
             </div>
 
