@@ -5,15 +5,22 @@ class Clock extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            posts: [],
+            comments: [],
             date: new Date,
-            user: 1
+            user: {
+                userId: 1,
+                username: 'jhonmart',
+            },
+            counter: 0
         }
     }
 
     componentDidMount(){
+
         setInterval( ()=> {
             this.setState({date: new Date()});
-            this.setState({user: 2})
+            this.setState({userId: 2})
         },
         1000
         )
