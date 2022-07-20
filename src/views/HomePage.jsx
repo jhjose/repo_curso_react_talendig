@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Clock from '../components/Clock';
+import ComponentsExamples from './ComponentsExamples';
 
 function HomePage(){
 
@@ -11,6 +12,7 @@ function HomePage(){
         <div>
             <Header title_app={titles.title_1} />
             <Clock />
+            <ComponentsExamples />
         </div>
     );
 }

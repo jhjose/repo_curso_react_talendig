@@ -6,6 +6,8 @@ import './App.css';
 import HomePage from './views/HomePage';
 import Login from './views/Login';
 import Register from './views/Register';
+import Counter from './components/Counter';
+import Chronometer from './components/Chronometer';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
               <Route path="/*" element={<HomePage/>} />
               <Route path="/login" exact element={<Login/>} />
               <Route path="/register" element={<Register />} />
+              <Route path="/counter" element={<Counter />} />
+              <Route path="/chronometer" element={<Chronometer/>} />
               <Route path="*" element={<Error404 />} />
           </Routes>
       </BrowserRouter>
